@@ -1,0 +1,40 @@
+@import 'content';
+
+html, body {
+    height:100%;
+}
+
+body {
+    background: linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+    background-repeat:no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 0;
+	border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+    background: -o-linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+    background: -moz-linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+    margin:0px !important;
+}
+
+h1, h2, h3, h4, h5, h6,  div, span, p {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+
+
+button {
+    border:none;
+    background:none;
+    cursor:pointer;
+}
+    

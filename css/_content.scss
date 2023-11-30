@@ -1,0 +1,123 @@
+.card {
+
+    max-width: 500px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+    &__title {
+        text-shadow: 5px 5px 0px rgba(240, 46, 170, 1);
+        font-size:50px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+ 
+    }
+
+    &__form {
+        background-color: white;
+        width: 100%;
+        padding: 30px 25px;
+        margin-bottom: 10%;
+        text-align: center;
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        
+    }
+
+    &__input {
+        font-size:18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 65%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 0 0 5px;
+        border-color: rgb(202, 202, 202);
+        &:focus {
+            outline:none;
+        }
+
+    }
+
+    &__button {
+        background-color: rgba(240, 46, 170);
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        &:hover {
+            background-color: rgb(147, 19, 100);
+        }
+    }
+
+    &__list {
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        background-color: white;
+        max-width: 500px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 30px 25px
+    }
+
+    &__item {
+        font-size:15px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding-bottom:15px;
+        border-bottom:solid 1px lightgray;
+        margin-bottom:15px;
+    }
+    
+    &__text {
+        font-weight: 500;
+        cursor:pointer;
+
+        &--strikethrough {
+            text-decoration: solid line-through;
+            color: lightgray;
+        }
+    }
+
+    &__features {
+        display:flex;
+        justify-content: flex-end;
+        width: 90px;
+    }
+
+    &__features button {
+        width:40px;
+        height:40px;
+        color:white;
+        &:hover {
+            opacity: 0.7;
+        }
+        & span {
+        font-size: 16px;
+       } 
+    }
+
+    &__edit {
+        background-color: #bde998;
+        margin-right: 10px;
+    }
+
+    &__done {
+        background-color: #07d534;
+    }
+
+    &__delete {
+        background-color: #953bfb;
+    }
+
+    
+
+    
+}

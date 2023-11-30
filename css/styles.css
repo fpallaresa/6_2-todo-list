@@ -1,0 +1,136 @@
+.card {
+  max-width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.card__title {
+  text-shadow: 5px 5px 0px rgb(240, 46, 170);
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.card__form {
+  background-color: white;
+  width: 100%;
+  padding: 30px 25px;
+  margin-bottom: 10%;
+  text-align: center;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.card__input {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 65%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 0 0 5px;
+  border-color: rgb(202, 202, 202);
+}
+.card__input:focus {
+  outline: none;
+}
+.card__button {
+  background-color: rgb(240, 46, 170);
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card__button:hover {
+  background-color: rgb(147, 19, 100);
+}
+.card__list {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  background-color: white;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 30px 25px;
+}
+.card__item {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-bottom: 15px;
+  border-bottom: solid 1px lightgray;
+  margin-bottom: 15px;
+}
+.card__text {
+  font-weight: 500;
+  cursor: pointer;
+}
+.card__text--strikethrough {
+  -webkit-text-decoration: solid line-through;
+          text-decoration: solid line-through;
+  color: lightgray;
+}
+.card__features {
+  display: flex;
+  justify-content: flex-end;
+  width: 90px;
+}
+.card__features button {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+.card__features button:hover {
+  opacity: 0.7;
+}
+.card__features button span {
+  font-size: 16px;
+}
+.card__edit {
+  background-color: #bde998;
+  margin-right: 10px;
+}
+.card__done {
+  background-color: #07d534;
+}
+.card__delete {
+  background-color: #953bfb;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: -moz-linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+  margin: 0px !important;
+}
+
+h1, h2, h3, h4, h5, h6, div, span, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
